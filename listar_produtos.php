@@ -29,7 +29,7 @@
                         echo "
                         <td>
                             <div class='btn-group' role='group'>
-                                <a href='form_atualiza.php?id=XXX' type='button' class='btn btn-danger'>ATUALIZAR</a>
+                                <a href='form_atualiza.php?id=" . $produto['id'] . "' type='button' class='btn btn-danger'>ATUALIZAR</a>
                                 <a href='#' type='button' class='btn btn-warning'>APAGAR</a>
                             </div>
                         </td>
