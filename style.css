@@ -1,0 +1,30 @@
+
+.playfair-display-uniquifier {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    border-radius: 50px;
+    box-shadow:#8b008bc5 10px 10px 7px 5px;
+}
+
+body{
+    background-color: 	#9b7bdb;
+}
+
+.btn-custom-color {
+    background-color: #6a0dad;
+    color: white; 
+    border-color: #6a0dad; 
+  }
+

@@ -28,9 +28,9 @@
                         echo "<td>" . $produto['quantidade'] . "</td>";   
                         echo "
                         <td>
-                            <div class='btn-group' role='group'>
-                                <a href='form_atualiza.php?id=" . $produto['id'] . "' type='button' class='btn btn-danger'>ATUALIZAR</a>
-                                <a href='excluir.php?id=" . $produto['id'] . " ' type='button' class='btn btn-warning'>APAGAR</a>
+                            <div >
+                                <a href='form_atualiza.php?id=" . $produto['id'] . "' type='button' class='btn btn-custom-color'>ATUALIZAR</a>
+                                <a href='excluir.php?id=" . $produto['id'] . " ' type='button' class='btn btn-custom-color'>APAGAR</a>
                             </div>
                         </td>
                         ";  
@@ -38,10 +38,11 @@
 
                 }
             ?>
-     <!-- _____ -->
+   
                
             </tbody>
         </table>
+        <a href="index.php" type="button" class="btn btn-custom-color">Voltar</a>
     </div>
 
     <!-- js bootstrap -->

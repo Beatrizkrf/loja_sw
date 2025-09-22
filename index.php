@@ -3,10 +3,11 @@
 ?>
 
     <div class="container">
-        <div class="btn-group" role="group">
-            <a href="form_cadastrar.php" type="button" class="btn btn-danger">Cadastrar Produto</a>
-            <a href="listar_produtos.php" type="button" class="btn btn-warning">Listar Produto</a>
-        </div>
+       
+            <a href="form_cadastrar.php" type="button" class="btn btn-custom-color">Cadastrar Produto</a>
+
+            <a href="listar_produtos.php" type="button" class="btn btn-custom-color">Listar Produto</a>
+           
     </div>
 
 

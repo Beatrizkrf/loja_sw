@@ -15,7 +15,10 @@
                 <input type="text" class="form-control" name="quantidade" placeholder="Digite a quantidade do produto:">  
             </div>
             
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
+            <button type="submit" class="btn btn-custom-color">Cadastrar</button>
+            
+            <a href="index.php" type="button" class="btn btn-custom-color">Voltar</a>
+           
         </form>
     </div>
     
