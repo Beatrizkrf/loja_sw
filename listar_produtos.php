@@ -29,8 +29,8 @@
                         echo "
                         <td>
                             <div >
-                                <a href='form_atualiza.php?id=" . $produto['id'] . "' type='button' class='btn btn-custom-color'>ATUALIZAR</a>
-                                <a href='excluir.php?id=" . $produto['id'] . " ' type='button' class='btn btn-custom-color'>APAGAR</a>
+                                <a href='form_atualiza.php?id=" . $produto['id'] . "' type='button' class='btn btn-custom-color btn_lista '>ATUALIZAR</a>
+                                <a href='excluir.php?id=" . $produto['id'] . " ' type='button' class='btn btn-custom-color btn_lista'>APAGAR</a>
                             </div>
                         </td>
                         ";  

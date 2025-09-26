@@ -9,8 +9,10 @@
     $stmt->bindParam(':id', $id);
     
     if ($stmt->execute()) {
-        echo "Produto excluído com sucesso!";
+     header("Location: certo.php");
+    exit;
     } else {
-        echo "Erro ao excluir produto.";
+      header("Location: erro.php");
+    exit;
     }
 ?>

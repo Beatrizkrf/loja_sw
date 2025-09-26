@@ -1,30 +1,43 @@
-
-.playfair-display-uniquifier {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
-
-.container{
-    text-align: center;
-    margin-top: 100px;
-    background-color: white;
-    padding-left: 25px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 25px;
-    border-radius: 50px;
-    box-shadow:#8b008bc5 10px 10px 7px 5px;
+body{
+    background-color: 	#cfb5ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: #757377;
 }
 
-body{
-    background-color: 	#9b7bdb;
+.container{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+    box-shadow:#750675c5 7px 7px 5px 2px;
+}
+
+table {
+  border-collapse: separate; 
+  border-spacing: 15px;      
+  width: 100%;
+  text-align: center;
+}
+
+td, th {
+  background-color: #d8c3ff8e !important;  
+  border-radius: 20px;       
+  padding: 15px;
+  border: none;               
+}
+
+.btn_lista{
+    background-color: #a983e7c5 !important;
+    color: white ; 
 }
 
 .btn-custom-color {
-    background-color: #6a0dad;
+    background-color: #750675c5;
     color: white; 
-    border-color: #6a0dad; 
   }
 

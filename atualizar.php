@@ -21,9 +21,11 @@
     $stmt->bindParam(':preco_novo', $preco_novo);
     $stmt->bindParam(':quantidade_novo', $quantidade_novo);
     
-    if ($stmt->execute()) {
-        echo "Produto atualizado com sucesso!";
+     if ($stmt->execute()) {
+     header("Location: certo.php");
+    exit;
     } else {
-        echo "Erro ao atualizar produto.";
+      header("Location: erro.php");
+    exit;
     }
 ?>

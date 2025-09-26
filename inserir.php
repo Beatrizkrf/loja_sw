@@ -13,8 +13,10 @@
     $stmt->bindParam(':quantidade', $quantidade);
     
     if ($stmt->execute()) {
-    echo "Produto inserido com sucesso!";
+     header("Location: certo.php");
+    exit;
     } else {
-    echo "Erro ao inserir produto.";
+      header("Location: erro.php");
+    exit;
     }
 ?>
